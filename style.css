@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+div{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, p, input{
+    margin-bottom: 30px;
+    color: white;
+}
+
+h1{
+    font-size: 4vw;
+}
+
+input{
+    width: 80%;
+    height: 20%;
+    min-height: 30px;
+    font-size: xx-large;
+    background-color:black;
+    outline: white;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+input:focus{
+    outline: none;
+}
+
+p{
+    font-size: 3vw;
+}
+
